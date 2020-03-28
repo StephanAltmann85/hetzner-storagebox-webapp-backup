@@ -1,0 +1,3 @@
+var/cache/production*
+templates_c
+web/cache/*
