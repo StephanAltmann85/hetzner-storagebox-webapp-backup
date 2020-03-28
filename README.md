@@ -14,4 +14,7 @@ Contains folders and files excluded from backup.
 1. edit files and edit config values
 2. run backup_authorize.sh once to setup folders and enable key authentification
 3. setup cronjob for backup.sh
-    0 * * * * /path/to/backup.sh > /dev/null 2&1
+```
+0 * * * * /path/to/backup.sh > /dev/null 2&1
+```
+4. setup automatic snapshots @ storagebox configuration
