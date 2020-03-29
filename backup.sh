@@ -12,7 +12,7 @@ TARGET_USER=""
 
 cd $EXECUTION_FOLDER
 
-NOW=$(date +"%Y-%m-%d-%H-%M")
+NOW=$(date +"%H-00")
 MYSQL_DUMP=`which mysqldump`
 RSYNC=`which rsync`
 GZIP=`which gzip`
