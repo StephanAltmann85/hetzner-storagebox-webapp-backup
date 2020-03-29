@@ -1,7 +1,7 @@
 #!/bin/sh
 TARGET_SERVER="username.your-storagebox.de"
 TARGET_USER=""
-PUB_KEY_PATH="~/.ssh/id_rsa.pub"
+PUB_KEY_PATH=~/.ssh/id_rsa.pub
 
 CAT=`which cat`
 SFTP=`which sftp`
